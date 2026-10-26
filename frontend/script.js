@@ -21,7 +21,6 @@ async function fetchTrends() {
         <h3>${index + 1}. ${item.title}</h3>
         <p><a href="${item.url}" target="_blank" rel="noopener noreferrer">መጣጥፉን አንብብ</a></p>
       `;
-
       // ለኮፒ ቁልፍ (Button) የሚሆን ኤለመንት በ JavaScript መፍጠር (SyntaxError እንዳይመጣ ይከላከላል)
       const copyBtn = document.createElement('button');
       copyBtn.textContent = '📋 Copy Prompt for ChatGPT';
