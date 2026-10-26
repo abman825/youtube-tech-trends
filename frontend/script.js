@@ -5,7 +5,7 @@ async function fetchTrends() {
   listDiv.innerHTML = '<p>ርዕሶችን በማምጣት ላይ...</p>';
 
   try {
-    const response = await fetch('http://localhost:5000/api/tech-trends');
+    const response = await fetch('https://youtube-tech-trends.onrender.com/api/tech-trends');
     const data = await response.json();
 
     listDiv.innerHTML = '';
